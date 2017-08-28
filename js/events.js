@@ -16,7 +16,7 @@ function getIt() {
 }
 
 function frameIt() {
-
+ console.log("hmmm")
   $('img').on('load', function(){
     console.log("MADE IT")
     $('img').addClass('tasty')
