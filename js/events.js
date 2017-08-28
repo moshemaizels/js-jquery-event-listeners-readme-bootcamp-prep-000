@@ -17,8 +17,8 @@ function getIt() {
 
 function frameIt() {
 
-  $('img').on('keydown', function(){
-    
+  $('img').on('load', function(){
+
     $('img').addClass('tasty')
   })
 }
