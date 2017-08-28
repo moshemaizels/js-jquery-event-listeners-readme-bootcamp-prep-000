@@ -9,7 +9,7 @@ frameIt()
 
 function getIt() {
 
-  $('p').on('click', function() {
+  $('p').on('load', function() {
     alert('Hey!');
     
   })
