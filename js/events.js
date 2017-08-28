@@ -11,8 +11,12 @@ function getIt() {
 
   $('p').on('click', function() {
     alert('Hey!');
-    
+
   })
+  $('img').on('load', function(){
+  //actions you want to happen
+  console.log("HEYYYYY")
+});
 
 }
 
