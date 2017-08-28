@@ -9,7 +9,7 @@ getIt()
 
 function getIt() {
   console.log("foobar")
-  $('p').on('click', function {
+  $('p').on('click', function() {
     alert('Hey!');
   })
   $('p').append("whassup")
