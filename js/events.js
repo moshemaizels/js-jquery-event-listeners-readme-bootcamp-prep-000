@@ -8,7 +8,7 @@ getIt()
 });
 
 function getIt() {
-  console.log("foobar")
+  
   $('p').on('click', function() {
     alert('Hey!');
   })
