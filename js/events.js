@@ -1,5 +1,5 @@
 //define functions here
-console.log("hey hey hey")
+
 $(document).ready(function(){
 console.log("here")
 // call functions here
