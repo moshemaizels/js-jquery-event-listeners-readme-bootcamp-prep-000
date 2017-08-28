@@ -12,5 +12,5 @@ function getIt() {
   $('p').on('click', function() {
     alert('Hey!');
   })
-  $('p').append("whassup")
+  
 }
